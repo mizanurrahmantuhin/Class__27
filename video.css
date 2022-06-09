@@ -1,0 +1,70 @@
+/* default css */
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo{}
+.logo img{
+    width: 150px;
+}
+.menu{}
+.menu ul{
+    margin: 0 !important;
+    text-align: right;
+    list-style: none;
+    margin-left: 20px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: .5s;
+    position: relative;
+}
+.menu ul li a:hover{
+    color: #99e9c4;
+}
+.menu ul li a::before {
+    content: "";
+    height: 3px;
+    width: 85%;
+    background-color: #99e9c4;
+    position: absolute;
+    bottom: 4px;
+    left: 9%;
+    transform: scale(0);
+    transition: .5s;
+}
+.menu ul li a:hover::before{
+    transform: scale(1);
+}
+.banner{
+    background: url(https://i.ibb.co/3sbz76B/contact-us-banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.banner h1 {
+    background: #000000a3;
+    display: inline-block;
+    color: #fafafa;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+.banner h3 {
+    color: #fff;
+    background: #56315699;
+    width: 558px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 10px 100px;
+}

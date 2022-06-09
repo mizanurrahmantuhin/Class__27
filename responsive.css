@@ -1,0 +1,354 @@
+@media (max-width:870px){
+    .menu ul li a {
+        padding: 10px 2px;
+    }
+    .left-img {
+        width: 50%;
+        margin-left: 20px;
+    }
+    .right-content {
+        width: 45%;
+    }
+    .right-content h4 {
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .contact p {
+        padding: 10px 60px;
+    }
+}
+@media (max-width:768px){
+    .logo h1 {
+        margin-top: 3px;
+        font-size: 25px;
+    }
+    .menu ul li a {
+        font-size: 14px;
+    }
+    .banner {
+        padding: 100px 0;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    .banner p {
+        font-size: 16px;
+    }
+    .banner a {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .services {
+        padding: 0;
+    }
+    .services h3 {
+        margin-top: 10px;
+    }
+    .service-item {
+        padding: 35px 15px;
+    }
+    .service-item span {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .service-item h4 {
+        font-size: 20px;
+    }
+    .service-item p {
+        font-size: 12px;
+    }
+    .about {
+        padding: 15px 0;
+    }
+    .about > p {
+        padding: 5px 115px;
+        margin-bottom: 15px;
+    }
+    p.fp {
+        padding: 0 123px;
+    }
+    .right-content p {
+        font-size: 12px;
+    }
+    .right-content h4 {
+        font-size: 16px;
+    }
+    .left-img {
+        margin-top: 10px;
+    }
+    .contact-info {
+        padding: 15px 0;
+    }
+    .contact-info p {
+        padding: 0px;
+        font-size: 15px;
+    }
+}
+@media (max-width:650px){
+    .menu ul li a {
+        font-size: 12px;
+    }
+    .thrd {
+        margin-right: 44px;
+        margin-top: 7px;
+    }
+    .right-content h4 {
+        font-size: 22px;
+        padding-bottom: 12px;
+    }
+    .right-content p {
+        font-size: 14px;
+    }
+}
+@media (max-width:610px){
+    .logo h1 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .right-content p {
+        font-size: 13px;
+    }
+    .right-content h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .contact p {
+        padding: 10px 30px;
+    }
+    .contact-info p {
+        padding: 0px !important;
+        font-size: 12px;
+    }
+}
+@media (max-width:584px){
+    .menu ul li {
+        display: inline-block;
+        padding: 3px;
+    }
+}
+@media (max-width:576px){
+    .logo {
+        width: 20%;
+    }
+    .menu {
+        width: 80%;
+    }
+    .logo h1 {
+        margin-top: 8px;
+        font-size: 15px;
+    }
+    .menu ul li a {
+        font-size: 11px;
+    }
+    .service-item h4 {
+        font-size: 15px;
+    }
+    .service-item p {
+        font-size: 11px;
+        padding: 0 !important;
+        margin-top: 5px;
+    }
+    .service-item span {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+    .thrd {
+        margin-right: 37px;
+        margin-top: 14px;
+    }
+    .banner {
+        padding: 45px 0;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
+    .banner p {
+        font-size: 13px;
+    }
+    .banner a {
+        font-size: 11px;
+        padding: 5px 10px;
+        margin-top: 20px;
+    }
+    p.fp {
+        padding: 0 55px;
+        font-size: 14px;
+    }
+    .about > p {
+        padding: 5px 55px;
+        font-size: 14px;
+    }
+}
+@media (max-width:551px){
+    .header {
+        padding: 10px 15px;
+    }
+    .logo {
+        width: 25%;
+    }
+    .menu {
+        width: 75%;
+    }
+    .contact p {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+
+}
+@media (max-width:499px){
+    .menu ul li {
+        padding: 0px 2px;
+    }
+    p.fp {
+        padding: 0 35px;
+        font-size: 13px;
+    }
+    .service-item {
+        padding: 15px 5px;
+        width: 50%;
+    }
+    .services {
+        padding: 10px 0;
+    }
+    .left-img {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .thrd {
+        margin-top: 10px;
+        margin-right: 34px;
+    }
+}
+@media(max-width:451px){
+    .header {
+        padding: 10px 5px;
+    }
+    .left-img {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 45%;
+    }
+    .right-content {
+        width: 48%;
+        margin: 0px 6px;
+    }
+    .thrd {
+        margin-top: 2px;
+        margin-right: 0;
+    }
+    .contact-info span {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .social ul li a span {
+        font-size: 15px;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+}
+@media(max-width:431px){
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu ul {
+        text-align: center;
+        margin-top: 5px;
+    }
+    .banner {
+        padding: 25px 0;
+    }
+    .banner h1 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        padding: 5px 0;
+    }
+    .banner p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .banner a {
+        margin-top: 10px;
+    }
+    .service-item {
+        padding: 15px 20px;
+    }
+    .about h3 {
+        font-size: 25px;
+    }
+    .about > p {
+        padding: 5px 7px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .left-img {
+        width: 100%;
+    }
+    .left-img img {
+        max-width: 85%;
+    }
+    .right-content {
+        width: 89%;
+        margin: 6px;
+    }
+    .contact h2 {
+        color: #555555;
+        font-size: 20px;
+        padding: 2px 0;
+    }
+    .contact {
+        padding: 10px 0;
+        background-color: #f6f6f6;
+    }
+    .contact-info {
+        padding: 10px 0;
+    }
+    .cntct{
+        margin-left: 5px;
+    }
+    .contact-info {
+        padding: 10px 0;
+        width: 100%;
+    }
+}
+@media(max-width:325px){
+    .header {
+        padding: 5px 0;
+    }
+    .services h3 {
+        margin-top: 0px;
+        font-size: 22px;
+        padding: 5px 0;
+    }
+    p.fp {
+        padding: 0 10px;
+        font-size: 11px;
+    }
+    .about h3 {
+        padding: 5px 0;
+        font-size: 22px;
+    }
+    .about > p {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .right-content {
+        margin: 2px;
+    }
+    .contact-info {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .copyright p {
+        font-size: 12px;
+    }
+}

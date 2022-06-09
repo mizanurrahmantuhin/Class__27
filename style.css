@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    background-color: #22c3a3;
+    padding: 15px 25px; 
+} 
+.logo{
+    float: left;
+    width: 30%;
+}
+.logo h1{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+}
+.menu{
+    float: right;
+    width: 70%;
+
+}
+.menu ul{
+    text-align: right;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+.banner{
+    background:url(https://i.ibb.co/y0mDhVr/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 180px 0;
+}
+.banner h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0;
+}
+.banner p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.services{
+    padding: 30px 0;
+    border-bottom: 2px solid #0dbf9b;
+}
+.services h3 {
+    font-size: 30px;
+    margin-top: 25px;
+    color: #555555;
+    padding: 15px 0;
+}
+.services p{
+    color: #767676;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-item {
+    float: left;
+    width: 25%;
+    margin: auto;
+    padding: 65px 15px;
+    box-sizing: border-box;
+}
+.service-item span {
+    display: inline-block;
+    color: #0dbf9b;
+    font-size: 40px;
+    padding: 20px 0;
+}
+.service-item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #656565;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.service-item p{
+    font-family: 'Open Sans', sans-serif;
+    color: #8b8b8b;
+}
+.about{
+    padding: 50px 0;
+}
+.about h3 {
+    font-size: 30px;
+    color: #555555;
+    padding: 10px 0;
+}
+
+.about > p{
+    color: #848484;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 0;
+    margin-bottom: 40px;
+}
+.left-img{
+    float: left;
+    width: 40%;
+}
+.left-img img{
+    max-width: 100%;
+}
+.right-content{
+    float: right;
+    width: 55%;
+   
+}
+.right-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #645f5f;
+}
+.right-content p{
+    color: #848484;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.contact{
+    padding: 30px 0;
+    background-color: #f6f6f6;
+}
+.contact h2{
+    color: #555555;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.contact p{
+    font-family: 'Open Sans', sans-serif;
+    color: #848484;
+    padding: 10px 0;
+}
+.contact-info{
+    float: left;
+    width: 33%;
+    margin: auto;
+    padding: 50px 0;
+}
+.contact-info span{
+    display: inline-block;
+    color: #0dbf9b;
+    font-size: 20px;
+    padding: 15px 0;
+}
+.contact-info p{
+   padding: 0;
+   line-height: 22px;
+}
+.social{
+    background-color: #0dbf9b;
+    padding: 20px 0;
+}
+.social ul{
+    text-align: center;
+}
+.social ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.social ul li a{}
+.social ul li a span{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+
+}
+.copyright{
+    background-color: #222222;
+    padding: 15px 0;
+}
+.copyright p{
+    color: #555555;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
